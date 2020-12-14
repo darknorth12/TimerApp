@@ -31,6 +31,7 @@ export class TimerComponent implements OnInit {
   }
 
   stopTimer() {
+    alert("Timer stopped");
     if (this.timerSubscription) this.timerSubscription.unsubscribe();
   }
 
