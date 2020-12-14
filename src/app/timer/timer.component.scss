@@ -1,0 +1,74 @@
+.main-container{
+   width: 20rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: skyblue;
+   padding: 1rem;
+   border-radius: 1rem;
+}
+
+.form-group {
+	 display: flex;
+	 justify-content: space-around;
+	 align-items: center;
+	 padding: .5rem;
+}
+
+.form-control{
+	width: 3rem;
+	background-color: transparent;
+	text-align: center;
+	border: 2px solid white;
+	margin-left: .5rem;
+	padding: .2rem;
+	border-radius: .5rem;
+}
+
+
+.timer{
+	padding: .5rem;
+	color: blue;
+	border-radius: .5rem;
+}
+
+.container{
+	background-color: black;
+	height: 1.5rem;
+	width: 100%;
+	text-align: center;
+}
+
+.progress-bar{
+	background-color: blue;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+
+.btns{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.btn{
+	padding: .5rem;
+	margin-top: .5rem;
+	border-radius: .5rem;
+	border: 0;
+	margin-right: .5rem;
+	background-color: lightblue;
+}
+
+.btn:hover{
+	background-color: blue;
+	color: white;
+}
+
+.btn:active{
+	background-color: lightblue;
+	color: black;
+}

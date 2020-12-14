@@ -1,0 +1,21 @@
+<div class="main-container">
+  <div class="form-group">
+    <label>Input Time</label>
+    <input
+    class="form-control"
+      [(ngModel)]="inputTimer"
+      (change)="onChangeInputTimer()"
+      type="number"
+    />
+  </div>
+  <p class="timer">Timer : {{ timer | timeTransform }}</p>
+  <div class="container">
+    <div class="progress-bar" [ngStyle]="{ width: progress }">{{progress}}
+    </div>
+  </div>
+  <div class="btns">
+    <button class="btn" (click)="startTimer()">Start</button>
+    <button class="btn" (click)="stopTimer()">Stop</button>
+    <button class="btn" (click)="resetTimer()">Reset</button>
+  </div>
+</div>
